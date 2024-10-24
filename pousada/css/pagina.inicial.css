@@ -1,0 +1,49 @@
+body {
+    background-color: #f5ebe0;
+  }
+  .navbar {
+    background-color: #5c3d2e;
+    padding: 15px;
+  }
+  .navbar-nav {
+    margin: 0 auto; /* Centralizar os itens */
+  }
+  .navbar-nav .nav-link {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #f5ebe0;
+    border: 1px solid #f5ebe0; /* Borda ao passar o cursor */
+  }
+  .navbar-nav .active {
+    background-color: #f5ebe0;
+    color: #5c3d2e;
+    font-weight: bold;
+  }
+  .hero-section {
+    background-color: #d4b59a;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .card-custom {
+    background-color: #5c3d2e;
+    color: white;
+    border-radius: 10px;
+  }
+  .card-custom img {
+    border-radius: 10px;
+  }
+  .rating {
+    color: #f5d1a3;
+  }
+  .custom-bg-color {
+    background-color:#5c3d2e; 
+    color: #f5ebe0;
+    margin-top: 180px;
+  }

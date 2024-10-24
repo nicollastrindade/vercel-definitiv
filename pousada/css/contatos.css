@@ -1,0 +1,98 @@
+body {
+    background-color: #f5ebe0;
+  }
+  .navbar {
+    background-color: #5c3d2e;
+    padding: 15px;
+  }
+  .navbar-nav {
+    margin: 0 auto; /* Centralizar os itens */
+  }
+  .navbar-nav .nav-link {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #f5ebe0;
+    border: 1px solid #f5ebe0; /* Borda ao passar o cursor */
+  }
+  .navbar-nav .active {
+    background-color: #f5ebe0;
+    color: #5c3d2e;
+    font-weight: bold;
+  }
+  .container {
+    padding: 50px 0;
+  }
+  .card {
+    border: none;
+    background-color: #5c3d2e;
+    color: #f5ebe0;
+    border-radius: 10px;
+  }
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .card-text {
+    font-size: 1.1rem;
+  }
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .custom-bg-color {
+    background-color:#5c3d2e; 
+    color: #f5ebe0;
+  }
+  .custom-btn {
+    background-color:#f5ebe0; /* Cor de fundo */
+    color:#5c3d2e; /* Cor do texto */
+    border: none; /* Remover a borda padrão */
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px; /* Deixar as bordas arredondadas */
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color:#5c3d2e; /* Cor do botão ao passar o cursor */
+    color:#f5ebe0;
+    transform: none;
+  }
+  .social-media-section {
+    background-color: #f5ebe0; /* Cor de fundo opcional */
+    padding: 50px 0;
+  }
+  
+  .social-media-section h2 {
+    color: #5c3d2e;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .social-media-section a {
+    color: #5c3d2e;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  
+  .social-media-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-media-section span {
+    font-size: 1.2rem;
+    color: #5c3d2e;
+  }
+  h2{
+    color: #f5ebe0;
+  }
+  label{
+    color: #f5ebe0;
+  }

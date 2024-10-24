@@ -1,0 +1,61 @@
+  body{
+    background-color: #f5ebe0;
+
+  }
+.navbar {
+    background-color: #5c3d2e;
+    padding: 15px;
+  }
+  .navbar-nav .nav-link {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #f5ebe0;
+    border: 1px solid #f5ebe0;
+  }
+  .navbar-nav .active {
+    background-color: #f5ebe0;
+    color: #5c3d2e;
+    font-weight: bold;
+  }
+  .section-content {
+    background-color:#5c3d2e;
+    padding: 30px;
+    border-radius: 10px;
+    color: #f5ebe0;
+  }
+  .btn-primary {
+    background-color: #5c3d2e;
+    border-color: #5c3d2e;
+  }
+
+  .custom-btn {
+    background-color:#f5ebe0; /* Cor de fundo */
+    color:#5c3d2e; /* Cor do texto */
+    border: none; /* Remover a borda padrão */
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px; /* Deixar as bordas arredondadas */
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color:#5c3d2e; /* Cor do botão ao passar o cursor */
+    color:#f5ebe0;
+    transform: none;
+  }
+
+  label{
+    color: #f5ebe0;
+  }
+  .custom-bg-color {
+    background-color:#5c3d2e; 
+    color: #f5ebe0;
+  }
+  
